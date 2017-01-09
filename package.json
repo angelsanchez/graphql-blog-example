@@ -1,0 +1,22 @@
+{
+  "name": "graphql-blog",
+  "version": "1.0.0",
+  "description": "GraphQL Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "babel lib/ -d dist/ --source-maps"
+  },
+  "author": "Angel Sanchez",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-env": "1.1.6"
+  },
+  "dependencies": {
+    "express": "4.14.0",
+    "express-graphql": "0.6.1",
+    "graphql": "0.8.2",
+    "mongoose": "4.7.6"
+  }
+}
